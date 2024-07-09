@@ -16,7 +16,7 @@ if prompt := st.chat_input("How to Get Popular on Instagram?"):
         st.markdown(prompt)
 
     with st.chat_message("assistant"):
-        response = chat_agent_executor.invoke({"input": prompt, "chat_history": st.session_state.messages})
+        response = chat_agent_executor.invoke({"input": prompt, "chat_history": st.session_state.messages[-1:]})
         result = response["output"]
         st.write(result)
         st.session_state.messages.append({"role": "assistant", "content": result})

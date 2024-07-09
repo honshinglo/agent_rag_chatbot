@@ -98,7 +98,7 @@ agent_prompt = hub.pull("hwchase17/openai-tools-agent")
 
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", """You must pass the input to agent tools. Pass all the intermediate result directly. If you don't have information, say you don't have informatio""",),
+        ("system", """You must pass the input to agent tools. Pass all the intermediate result directly. If you don't have information, say you don't have information""",),
         ("human", "{input}"),
         MessagesPlaceholder(variable_name='chat_history', optional=True),
         MessagesPlaceholder(variable_name="agent_scratchpad"),
