@@ -1,13 +1,13 @@
 # Agent_Rag_Chatbot
 This is a chatbot using agent tool and one of the tool is using Retrieval-Augmented Generation from a vector database.
 
-# Design Diagram
+## Design Diagram
 <div align="center"><img src="images/design.png" alt="design diagram"></div>
 
-# Prequisite
+## Prequisite
 Python must be installed
 
-# Quick Start
+## Quick Start
 Use CMD
 
 Clone the repository
