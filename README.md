@@ -7,6 +7,8 @@ This is a chatbot using agent tool and one of the tool is using Retrieval-Augmen
 ## Prequisite
 Python must be installed
 
+Obtained your own openai_ai_key
+
 ## Quick Start
 Use CMD
 
